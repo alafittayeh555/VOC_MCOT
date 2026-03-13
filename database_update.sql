@@ -1,0 +1,1 @@
+ALTER TABLE complaints ADD COLUMN is_anonymous TINYINT(1) DEFAULT 0; ALTER TABLE complaints ADD COLUMN complaint_type ENUM('Complaint', 'Suggestion') DEFAULT 'Complaint'; ALTER TABLE complaints ADD COLUMN program VARCHAR(100) DEFAULT NULL;
